@@ -1,0 +1,72 @@
+{
+    "modelDetails": {
+      "_id": "66c484e13e48d74bb7bf09a5",
+      "name": "NeuralNetwork_model_test",
+      "filePath": "models/NeuralNetwork_model_test/NeuralNetwork_model_test.h5",
+      "absolute": 0.8578521320922142,
+      "squared": 1.001959204673767,
+      "r2": 0.23804932123642586,
+      "isCurrent": true,
+      "quizId": "668862a2bbb7da4c6e25bc40",
+      "modelUniqueId": "ahJcz2",
+      "trainTime": 1.719264030456543,
+      "algorithmType": "nn",
+      "isSeeded": true,
+      "seedQty": 100,
+      "createdBy": "667d99fe64c5a610d05e8279",
+      "createdAt": "2024-08-20T11:58:25.345Z",
+      "updatedAt": "2024-08-20T11:58:25.345Z",
+      "__v": 0
+    },
+    "allAnswers": [
+      {
+        "distance": {
+          "value": 10,
+          "weight": 9
+        },
+        "gpa": {
+          "value": "More than 3.5",
+          "weight": 9
+        },
+        "courses": {
+          "value": "3",
+          "weight": 8
+        },
+        "sat": {
+          "value": "More than 1200",
+          "weight": 8
+        },
+        "credits": {
+          "value": "Between 24 to 30",
+          "weight": 5
+        },
+        "experience": {
+          "value": [
+            "Project Done",
+            "Extra Classes",
+            "Paper Published",
+            "Seminar",
+            "Internship finished"
+          ],
+          "weight": 0
+        },
+        "career": {
+          "value": "Software Engineering",
+          "weight": 7
+        },
+        "interested": {
+          "value": "Extremely Interested",
+          "weight": 10
+        },
+        "startdate": {
+          "value": "08/2023",
+          "weight": 0
+        },
+        "enddate": {
+          "value": "05/2025",
+          "weight": 0
+        }
+      }
+    ],
+    "studentId": "667cda6c64c5a610d05e8261"
+  }

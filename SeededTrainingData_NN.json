@@ -1,0 +1,424 @@
+{
+  "data": {
+    "modelName": "NeuralNetwork_model_test",
+    "seedQty": 100,
+    "algorithmType": "nn",
+    "questionSlugAndType": [
+      {
+        "quizId": "6680c62464c5a610d05e83fb",
+        "questions": {
+          "distance": {
+            "question": "What is the distance in miles from your home to the university?",
+            "type": "number",
+            "priorityScore": 0,
+            "seedData": [
+              {
+                "seedValue": 10,
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": 20,
+                "seedProbability": 0.3
+              },
+              {
+                "seedValue": 3,
+                "seedProbability": 0.3
+              },
+              {
+                "seedValue": 15,
+                "seedProbability": 0.2
+              }
+            ],
+            "options": [
+              {
+                "optionValue": 10,
+                "optionWeightage": 9
+              },
+              {
+                "optionValue": 20,
+                "optionWeightage": 7
+              },
+              {
+                "optionValue": 3,
+                "optionWeightage": 6
+              },
+              {
+                "optionValue": 15,
+                "optionWeightage": 4
+              }
+            ],
+            "restrictions": {
+              "minNum": 10,
+              "maxNum": 50
+            }
+          },
+          "gpa": {
+            "question": "What are your GPA scores?",
+            "type": "string",
+            "priorityScore": 9,
+            "seedData": [
+              {
+                "seedValue": "More than 3.5",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Between 3.0 and 3.5",
+                "seedProbability": 0.3
+              },
+              {
+                "seedValue": "Between 2.0 to 3.0",
+                "seedProbability": 0.3
+              },
+              {
+                "seedValue": "Below 2.0",
+                "seedProbability": 0.2
+              }
+            ],
+            "options": [
+              {
+                "optionValue": "More than 3.5",
+                "optionWeightage": 9
+              },
+              {
+                "optionValue": "Between 3.0 and 3.5",
+                "optionWeightage": 7
+              },
+              {
+                "optionValue": "Between 2.0 to 3.0",
+                "optionWeightage": 6
+              },
+              {
+                "optionValue": "Below 2.0",
+                "optionWeightage": 4
+              }
+            ]
+          },
+          "credits": {
+            "question": "How many credits have you completed?",
+            "type": "string",
+            "priorityScore": 8,
+            "seedData": [
+              {
+                "seedValue": "Between 15 to 18",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Between 9 to 12",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Between 24 to 30",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Between 21 to 26",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "More than 30",
+                "seedProbability": 0.1
+              },
+              {
+                "seedValue": "Below 6 credits",
+                "seedProbability": 0.1
+              }
+            ],
+            "options": [
+              {
+                "optionValue": "Between 15 to 18",
+                "optionWeightage": 5
+              },
+              {
+                "optionValue": "Between 9 to 12",
+                "optionWeightage": 4
+              },
+              {
+                "optionValue": "Between 24 to 30",
+                "optionWeightage": 5
+              },
+              {
+                "optionValue": "Between 21 to 26",
+                "optionWeightage": 5
+              },
+              {
+                "optionValue": "More than 30",
+                "optionWeightage": 6
+              },
+              {
+                "optionValue": "Below 6 credits",
+                "optionWeightage": 3
+              }
+            ]
+          },
+          "sat": {
+            "question": "What is your SAT score?",
+            "type": "string",
+            "priorityScore": 8,
+            "seedData": [
+              {
+                "seedValue": "Between 800 to 1200",
+                "seedProbability": 0.5
+              },
+              {
+                "seedValue": "Below 500",
+                "seedProbability": 0.1
+              },
+              {
+                "seedValue": "Between 500 to 800",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "More than 1200",
+                "seedProbability": 0.2
+              }
+            ],
+            "options": [
+              {
+                "optionValue": "Between 800 to 1200",
+                "optionWeightage": 6
+              },
+              {
+                "optionValue": "Below 500",
+                "optionWeightage": 1
+              },
+              {
+                "optionValue": "Between 500 to 800",
+                "optionWeightage": 4
+              },
+              {
+                "optionValue": "More than 1200",
+                "optionWeightage": 8
+              }
+            ]
+          },
+          "courses": {
+            "question": "How many courses you're opting for?",
+            "type": "string",
+            "priorityScore": 7,
+            "seedData": [
+              {
+                "seedValue": "1",
+                "seedProbability": 0.3
+              },
+              {
+                "seedValue": "2",
+                "seedProbability": 0.3
+              },
+              {
+                "seedValue": "3",
+                "seedProbability": 0.4
+              }
+            ],
+            "options": [
+              {
+                "optionValue": "1",
+                "optionWeightage": 5
+              },
+              {
+                "optionValue": "2",
+                "optionWeightage": 7
+              },
+              {
+                "optionValue": "3",
+                "optionWeightage": 8
+              }
+            ]
+          },
+          "career": {
+            "question": "What is your career aspiration?",
+            "type": "string",
+            "priorityScore": 8,
+            "seedData": [
+              {
+                "seedValue": "Cyber Security",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Data Scientist",
+                "seedProbability": 0.3
+              },
+              {
+                "seedValue": "Software Engineering",
+                "seedProbability": 0.3
+              },
+              {
+                "seedValue": "Other",
+                "seedProbability": 0.2
+              }
+            ],
+            "options": [
+              {
+                "optionValue": "Cyber Security",
+                "optionWeightage": 7
+              },
+              {
+                "optionValue": "Data Scientist",
+                "optionWeightage": 7
+              },
+              {
+                "optionValue": "Software Engineering",
+                "optionWeightage": 7
+              },
+              {
+                "optionValue": "Other",
+                "optionWeightage": 7
+              }
+            ]
+          },
+          "interested": {
+            "question": "How much are you interested in the course?",
+            "type": "number",
+            "priorityScore": 6,
+            "seedData": [
+              {
+                "seedValue": "Not at all Interested",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Moderately Interested",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Extremely Interested",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Very Interested",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Slightly Interested",
+                "seedProbability": 0.2
+              }
+            ],
+            "options": [
+              {
+                "optionValue": "Not at all Interested",
+                "optionWeightage": 2
+              },
+              {
+                "optionValue": "Moderately Interested",
+                "optionWeightage": 6
+              },
+              {
+                "optionValue": "Extremely Interested",
+                "optionWeightage": 10
+              },
+              {
+                "optionValue": "Very Interested",
+                "optionWeightage": 8
+              },
+              {
+                "optionValue": "Slightly Interested",
+                "optionWeightage": 4
+              }
+            ]
+          },
+          "experience": {
+            "question": "How much exposure or experience and knowledge do you have on this subject? Any Projects done? Paper published? Extra classes? Seminars?",
+            "type": "string",
+            "priorityScore": 6,
+            "seedData": [
+              {
+                "seedValue": "Extra Classes",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Paper Published",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Seminar",
+                "seedProbability": 0.1
+              },
+              {
+                "seedValue": "None",
+                "seedProbability": 0.1
+              },
+              {
+                "seedValue": "Project Done",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "Internship finished",
+                "seedProbability": 0.2
+              }
+            ],
+            "options": [
+              {
+                "optionValue": "Extra Classes",
+                "optionWeightage": 4
+              },
+              {
+                "optionValue": "Paper Published",
+                "optionWeightage": 8
+              },
+              {
+                "optionValue": "Seminar",
+                "optionWeightage": 2
+              },
+              {
+                "optionValue": "None",
+                "optionWeightage": 1
+              },
+              {
+                "optionValue": "Project Done",
+                "optionWeightage": 6
+              },
+              {
+                "optionValue": "Internship finished",
+                "optionWeightage": 10
+              }
+            ]
+          },
+          "startdate": {
+            "question": "What is your start date?",
+            "type": "string",
+            "priorityScore": 9,
+            "seedData": [
+              {
+                "seedValue": "01/2021",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "03/2022",
+                "seedProbability": 0.1
+              },
+              {
+                "seedValue": "08/2022",
+                "seedProbability": 0.6
+              },
+              {
+                "seedValue": "11/2023",
+                "seedProbability": 0.1
+              }
+            ]
+          },
+          "enddate": {
+            "question": "What is your expected graduation date?",
+            "type": "string",
+            "priorityScore": 10,
+            "seedData": [
+              {
+                "seedValue": "02/2024",
+                "seedProbability": 0.1
+              },
+              {
+                "seedValue": "03/2025",
+                "seedProbability": 0.2
+              },
+              {
+                "seedValue": "05/2024",
+                "seedProbability": 0.6
+              },
+              {
+                "seedValue": "11/2026",
+                "seedProbability": 0.1
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
